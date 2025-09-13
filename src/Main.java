@@ -11,6 +11,7 @@ public class Main {
         int maxTurns = 3;
         int currentTurn = 1;
         boolean hasWon = false;
+        player.setScore(player.getScore() + 10);
 
         System.out.println("Welcome " + player.getName() + "!");
         System.out.println("Guess the number between 1 and 10. You have " + maxTurns + " turns.");
